@@ -43,7 +43,7 @@ par(family="A", cex.axis=1.2, cex.lab=1.2, cex.main=1.3)
 plot(x2,y, xaxs="i", yaxs="i",col="gray60", lwd = 2, lty=1, 
 ylim=c(sxlim,exlim), xlim=as.POSIXct(c(sta_tt,end_tt)), yaxt="n", xaxt="n", pch=17, cex=0.7,
  type="l", xlab="", ylab="",) 
-
+zzzz
 axis(side=2, at = seq(sxlim,exlim,x_interval)) #x=va1,
 axis.POSIXct(side=1, x=tt1, pos=0, at = seq(sta_tt,end_tt,by= ((end_tt-sta_tt)/t_interval)), format = "%H:%M")
 
